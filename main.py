@@ -36,6 +36,22 @@ if answer4 == "float":
 else:
     print("Incorrect")
 
+# Question Five
+answer5 = input(
+    "When was Python released as a programming language?")
+if answer4 == "1991":
+    print("Correct")
+    score += 1
+else:
+    print("Incorrect")
+
 
 # Result
-print("\nYour score is", score, "/ 4 or", score / 4 * 100, "%")
+print("\nYOUR RESULTS:")
+print(score, "/ 4 or", score / 4 * 100, "%")
+if score <= 2:
+    print("You need to study... ")
+elif score <= 4:
+    print("Not bad, want to try again?")
+else:
+    print("Perfection!")
