@@ -12,7 +12,7 @@ else:
     print("Incorrect")
 
 # Question Two
-answer2 = input("What is the square root of 64? ")
+answer2 = input("What is the square root of 64? ").lower()
 if answer2 == "8" or answer2 == "eight":
     print("Correct")
     score += 1
@@ -29,7 +29,7 @@ else:
 
 # Question Four
 answer4 = input(
-    "You want to gather user inputs of numbers with decimal points; do you use an 'int' 'str' or 'float'? ")
+    "You want to gather user inputs of numbers with decimal points; do you use an 'int' 'str' or 'float'? ").lower()
 if answer4 == "float":
     print("Correct")
     score += 1
@@ -37,9 +37,8 @@ else:
     print("Incorrect")
 
 # Question Five
-answer5 = input(
-    "When was Python released as a programming language?")
-if answer4 == "1991":
+answer5 = input("What year was Python released as a programming language? ")
+if answer5 == "1991":
     print("Correct")
     score += 1
 else:
