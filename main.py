@@ -13,7 +13,7 @@ else:
 
 # Question Two
 answer2 = input("What is the square root of 64? ")
-if answer2 == "8":
+if answer2 == "8" or answer2 == "eight":
     print("Correct")
     score += 1
 else:
@@ -48,7 +48,7 @@ else:
 
 # Result
 print("\nYOUR RESULTS:")
-print(score, "/ 4 or", score / 4 * 100, "%")
+print(score, "/ 5 or", score / 5 * 100, "%")
 if score <= 2:
     print("You need to study... ")
 elif score <= 4:
